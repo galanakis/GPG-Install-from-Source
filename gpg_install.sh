@@ -100,7 +100,7 @@ rm -rf gnupg-$VER_GPG
 rm -rf ncurses-$VER_NCURSES
 rm -rf pinentry-$VER_PINENTRY
 
-# Run the gpg program to create a key
+
 cat << EOF
 +-------------------------------------------------+
 |-------------------------------------------------|
@@ -111,7 +111,7 @@ cat << EOF
 ||                                               ||
 ||  '$HOME/.gnupg/system/bin'                    ||
 ||                                               ||
-|| You can start by generating a key by in^oking ||
+|| You can start by generating a key by invoking ||
 ||                                               ||
 ||  '$HOME/.gnupg/system/bin/gpg --gen-key'      ||
 ||                                               ||
@@ -130,7 +130,6 @@ cat << EOF
 || Enjoy!                                        ||
 |-------------------------------------------------|
 +-------------------------------------------------+
-
 EOF
 
 
