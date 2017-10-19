@@ -8,19 +8,19 @@ packaging system or you need a newer version.
 
 Simply run
 
-  `sh gpg_install.sh`
+  	curl https://raw.githubusercontent.com/galanakis/GPG-Install-from-Source/master/gpg_install.sh | sh
 
 Everything is installed at 
 
-	`$HOME/.gnupg/system`
+	$HOME/.gnupg/system
 
 You may want to add
 	
-	`$HOME/.gnupg/system/bin`
+	$HOME/.gnupg/system/bin
 
 to the path or create an alias
 
-	`alias gpg=$HOME/.gnupg/system/bin/gpg`
+	alias gpg=$HOME/.gnupg/system/bin/gpg
 
 The script is a bit basic and compiles gpg with
 the minimum feature set. If there is interest I
