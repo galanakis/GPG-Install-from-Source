@@ -26,4 +26,4 @@ The script is a bit basic and compiles gpg with
 the minimum feature set. If there is interest I
 may update it.
 
-I was tested on MacOS.
+It was tested on MacOS.
