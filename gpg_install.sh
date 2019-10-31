@@ -16,7 +16,7 @@
 #       ^               +          |
 #       |               |          |
 #    +--+---+           v          |
-# +--+gnupg|-->ksba+-->libgpg+error|
+# +--+gnupg +->ksba+-->libgpg+error|
 # |  +--+---+    ^      ^          |
 # |     |        |      |          |
 # |     v        |      |          |
@@ -33,15 +33,15 @@
 
 
 # VERSIONS
-VER_GPG=2.2.1
-VER_LIBGPG_ERROR=1.27
-VER_LIBGCRYPT=1.8.1
+VER_GPG=2.2.17
+VER_LIBGPG_ERROR=1.36
+VER_LIBGCRYPT=1.8.5
 VER_LIBKSBA=1.3.5
-VER_LIBASSUAN=2.4.3
+VER_LIBASSUAN=2.5.3
 VER_NTBTLS=0.1.2
-VER_NPTH=1.5
-VER_PINENTRY=1.0.0
-VER_NCURSES=6.0
+VER_NPTH=1.6
+VER_PINENTRY=1.1.0
+VER_NCURSES=6.1
 
 # Installation directory
 export PREFIX=$HOME/.gnupg/system
